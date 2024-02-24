@@ -1,8 +1,8 @@
 from flask import Flask, request, render_template, jsonify
-from check_syllable import check_syllable
-from check_word import check_word
-from Japanese to Hiragana import latin_to_hiragana
-from english_translation import hiragana_english
+from checksyllable import check_syllable
+from checkword import check_word
+from latintohiragana import latin_to_hiragana
+from englishtranslation import hiragana_english
 
 app = Flask(__name__)
 
